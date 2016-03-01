@@ -1,4 +1,4 @@
-function romanize(number){
+function romanize(arabic_numeral){
   var matches = {
     1: "I",
     2: "II",
@@ -10,6 +10,7 @@ function romanize(number){
     8: "VIII",
     9: "IX",
     10: "X"
-  }
-  return matches[number];
+  };
+  var roman_numeral = matches[arabic_numeral];
+  return roman_numeral;
 }
