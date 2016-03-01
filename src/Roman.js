@@ -1,6 +1,6 @@
 var romanize = function (number) {
-  result = '';
-  mappings = [
+  var result = '';
+  var mappings = [
     {arabic: 1000, roman: 'M'},
     {arabic: 900, roman: 'CM'},
     {arabic: 500, roman: 'D'},
@@ -16,6 +16,10 @@ var romanize = function (number) {
     {arabic: 1, roman: 'I'}
   ];
 
+  // Start with the highest roman numeral,
+  //   if our comparison number is bigger
+  //      concatenate this Roman numeral to the result and
+  //      subtract the arabic equivalent from our comparison number
   for (var i = 0; i < mappings.length; i++) {
     var mapping = mappings[i];
     while (number >= mapping.arabic) {
@@ -23,6 +27,6 @@ var romanize = function (number) {
       number -= mapping.arabic;
     }
   }
-  
+
   return result;
-};
+}
