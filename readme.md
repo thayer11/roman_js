@@ -23,9 +23,15 @@ Click on "Spec List" to see a listing of the specs. See that the numbers below 1
 
 Feel free to ignore SpecRunner.html, but you may find it helpful as you refactor your code to support the next range of Roman Numerals.
 
+**Pro-Tip:** Comment out the failing specs, leaving only a single failing spec.  Just focus on one requirement at a time.
+
 ### Pseudo Code!(10m)
 
 We recommend you pseudocode for the first 10 minutes. Start writing down/typing how to break this problem down.
+
+### Stating the obvious
+
+You are looking for an algorithm that will calculate a Roman numeral.  Simply creating a massive conversion chart that includes all numbers is, well, simply painful.
 
 ### Bonus
 
