@@ -14,7 +14,7 @@ Create a function that accepts an integer as an argument. It should than convert
 
 ### Pseudo Code!(10m)
 
-We recommend you pseudocode for the first 10 minutes. Start writing down/typing how to break this problem down.
+We recommend you pseudocode for the first few minutes. Start writing down/typing how to break this problem down.
 
 ### Stating the obvious
 
